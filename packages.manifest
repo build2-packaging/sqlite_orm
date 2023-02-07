@@ -1,0 +1,6 @@
+: 1
+location: libssqlite_orm/
+:
+location: libssqlite_orm-examples/
+:
+location: libssqlite_orm-tests/
