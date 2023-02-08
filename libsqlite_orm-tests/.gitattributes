@@ -1,0 +1,7 @@
+src/built_in_functions_tests symlink=dir
+src/constraints symlink=dir
+src/operators symlink=dir
+src/prepared_statement_tests symlink=dir
+src/statement_serializer_tests symlink=dir
+src/static_tests symlink=dir
+src/unique_cases symlink=dir
