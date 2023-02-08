@@ -12,6 +12,7 @@ doc-url: https://sqliteorm.com/docs
 package-url: https://github.com/build2-packaging/sqlite_orm
 package-email: packaging@build2.org ; Mailing list.
 builds: default
+requires: c++17
 examples: libsqlite_orm-examples
 tests: libsqlite_orm-tests
 
