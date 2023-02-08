@@ -1,8 +1,8 @@
 : 1
-name: libsqlite_orm
+name: libsqlite_orm-examples
 version: 1.8.1-a.0.z
 project: SQLite ORM
-summary: SQLite ORM light header only library for modern C++
+summary: Examples for the SQLite ORM library.
 license: AGPL/MIT
 description-file: README.md
 topics: C++, SQLite
@@ -12,8 +12,6 @@ doc-url: https://sqliteorm.com/docs
 package-url: https://github.com/build2-packaging/sqlite_orm
 package-email: packaging@build2.org ; Mailing list.
 builds: default
-examples: libsqlite_orm-examples
 
 depends: * build2 >= 0.15.0
 depends: * bpkg >= 0.15.0
-depends: libsqlite == $

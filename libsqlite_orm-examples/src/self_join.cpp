@@ -1,0 +1,1 @@
+../../upstream/examples/self_join.cpp

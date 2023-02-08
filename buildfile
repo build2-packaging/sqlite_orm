@@ -1,15 +1,2 @@
-import pkgs = libsimpleble/
-
-libimgui = [dir_path] $pkgs
-
-import pkgs += libsimpleble-examples/
-
-switch $($libimgui/ cxx.target.class)
-{
-    case 'linux'
-    {
-        import pkgs += {libsimplebluez/ libsimpledbus/}
-    }
-}
-
+import pkgs = libsqlite_orm/ libsqlite_orm-examples/ libsqlite_orm-tests/
 ./: $pkgs
