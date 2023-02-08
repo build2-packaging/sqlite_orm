@@ -1,4 +1,4 @@
-project = libfsqlite_orm-tests
+project = libsqlite_orm-tests
 
 using version
 using config

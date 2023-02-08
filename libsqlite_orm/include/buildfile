@@ -1,4 +1,4 @@
-import intf_libs = libsqlite%lib{sqlite}
+import intf_libs = libsqlite3%lib{sqlite3}
 
 lib{sqlite_orm}: hxx{**}
 lib{sqlite_orm}: $intf_libs

@@ -1,6 +1,6 @@
 : 1
-location: libssqlite_orm/
+location: libsqlite_orm/
 :
-location: libssqlite_orm-examples/
+location: libsqlite_orm-examples/
 :
-location: libssqlite_orm-tests/
+location: libsqlite_orm-tests/

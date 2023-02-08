@@ -1,7 +1,7 @@
 : 1
 name: libsqlite_orm
 version: 1.8.1-a.0.z
-project: SQLite ORM
+project: SQLiteORM
 summary: SQLite ORM light header only library for modern C++
 license: AGPL/MIT
 description-file: README.md
@@ -16,4 +16,4 @@ examples: libsqlite_orm-examples
 
 depends: * build2 >= 0.15.0
 depends: * bpkg >= 0.15.0
-depends: libsqlite == $
+depends: libsqlite3 ^3.0.0
