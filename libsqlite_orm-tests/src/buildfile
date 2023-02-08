@@ -1,5 +1,5 @@
 import impl_libs = libsqlite_orm%lib{sqlite_orm}
-import impl_libs += catch2%{catch2}
+import impl_libs += catch2%libul{catch2wmain}
 
 exe{unit_tests}: cxx{**}
 exe{unit_tests}: $impl_libs

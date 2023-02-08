@@ -38,3 +38,7 @@ doc/latex
 *.exe.dlls/
 *.exe.manifest
 *.pc
+*.sqlite
+*.db
+*.sqlite-journal
+db
