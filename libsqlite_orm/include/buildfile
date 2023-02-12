@@ -10,7 +10,7 @@ platform_coptions =
 platform_poptions =
 switch $cxx.target.class
 {
-    case 'windows':
+    case 'windows'
     {
         if ($cxx.id == 'msvc')
         {
