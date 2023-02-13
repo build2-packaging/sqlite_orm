@@ -66,7 +66,7 @@ jobs:
       with:
         build2-version: latest
     - name: Configure
-      run: bdep init -C @cc cc config.config.load=build-config/${{matrix.config.config_file}}
+      run: bdep init -C @cc cc config.config.load=build-config/${{matrix.config.config_file}} config.cxx.std=17
     - name: Build
       run: b -V
     - name: Test
@@ -104,7 +104,7 @@ jobs:
         build2-version: latest
         build2-windows-compiler: ${{matrix.config.compiler_type}}
     - name: Configure
-      run: bdep init -C ../sqlite_orm-cc @cc cc config.config.load=build-config/${{matrix.config.config_file}}
+      run: bdep init -C ../sqlite_orm-cc @cc cc config.config.load=build-config/${{matrix.config.config_file}} config.cxx.std=17
     - name: Build
       run: b -V
     - name: Test
