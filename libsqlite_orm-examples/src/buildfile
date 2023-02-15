@@ -1,5 +1,10 @@
 import impl_libs = libsqlite_orm%lib{sqlite_orm}
 
+if ($cxx.id == 'msvc')
+{
+    cxx.coptions += /TP
+}
+
 example_files = cxx{**}
 
 for example: $example_files

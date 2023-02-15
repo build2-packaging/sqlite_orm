@@ -1,6 +1,11 @@
 import impl_libs = libsqlite_orm%lib{sqlite_orm}
 import impl_libs += catch2%libul{catch2wmain}
 
+if ($cxx.id == 'msvc')
+{
+    cxx.coptions += /TP
+}
+
 exe{unit_tests}: {hxx cxx}{** -pragma_tests}
 exe{unit_tests}: cxx{pragma_tests}: include = ($cxx.target.class != 'windows')
 exe{unit_tests}: $impl_libs
