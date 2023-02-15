@@ -11,8 +11,8 @@ src-url: https://github.com/fnc12/sqlite_orm
 doc-url: https://sqliteorm.com/docs
 package-url: https://github.com/build2-packaging/sqlite_orm
 package-email: packaging@build2.org ; Mailing list.
-builds: default
-requires: c++20
+builds: &( +clang-14+ +gcc +msvc )
+requires: c++14
 examples: libsqlite_orm-examples
 tests: libsqlite_orm-tests
 
