@@ -1,6 +1,6 @@
 : 1
 name: libsqlite_orm-examples
-version: 1.8.1-a.0.z
+version: 1.8.1
 project: SQLiteORM
 summary: Examples for the SQLite ORM library.
 license: AGPL/MIT
