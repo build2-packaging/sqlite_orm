@@ -3,7 +3,7 @@ name: libsqlite_orm
 version: 1.8.1
 project: SQLiteORM
 summary: SQLite ORM light header only library for modern C++
-license: AGPL/MIT
+license: AGPL-3.0-only
 description-file: README.md
 topics: C++, SQLite
 url: https://sqliteorm.com/

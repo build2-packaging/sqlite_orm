@@ -6,27 +6,9 @@ lib{sqlite_orm}: $intf_libs
 out_inc = [dir_path] $out_root/include/
 src_inc = [dir_path] $src_root/include/
 
-platform_coptions =
-platform_poptions =
-switch $cxx.target.class
-{
-    case 'windows'
-    {
-        if ($cxx.id == 'msvc')
-        {
-            platform_coptions += /EHsc /bigobj /Zc:__cplusplus /MP
-            platform_poptions += -D_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING
-        }
-    }
-}
-
-cxx.coptions += $platform_coptions
-cxx.poptions += "-I$out_inc" "-I$src_inc" $platform_poptions
-
 lib{sqlite_orm}:
 {
-  cxx.export.coptions = $platform_coptions
-  cxx.export.poptions = "-I$out_inc" "-I$src_inc" $platform_poptions
+  cxx.export.poptions = "-I$out_inc" "-I$src_inc"
   cxx.export.libs = $intf_libs
 }
 
