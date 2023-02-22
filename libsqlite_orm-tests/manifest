@@ -1,9 +1,9 @@
 : 1
 name: libsqlite_orm-tests
-version: 1.8.1
+version: 1.8.1+1
 project: sqlite_orm
 summary: Tests for the SQLite ORM library.
-license: AGPL/MIT
+license: AGPL-3.0-only
 description-file: README.md
 topics: C++, SQLite
 url: https://sqliteorm.com/
