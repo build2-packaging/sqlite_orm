@@ -1,1 +1,0 @@
-../../upstream/examples/generated_column.cpp

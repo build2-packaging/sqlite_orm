@@ -1,2 +1,2 @@
-import pkgs = libsqlite_orm/ libsqlite_orm-examples/ libsqlite_orm-tests/
+import pkgs = libsqlite_orm/ libsqlite_orm-tests/
 ./: $pkgs

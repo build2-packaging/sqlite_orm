@@ -1,1 +1,0 @@
-../../upstream/examples/pointer_passing_interface.cpp

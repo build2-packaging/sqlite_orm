@@ -1,0 +1,1 @@
+../../../upstream/examples/blob_binding.cpp

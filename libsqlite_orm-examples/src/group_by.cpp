@@ -1,1 +1,0 @@
-../../upstream/examples/group_by.cpp
